@@ -9,6 +9,10 @@ contract EthSwap {
     constructor(Token _token) public{
         token = _token;
     }
+
+    function buytokens() {
+        token.transfer(msg.sender, )
+    }
 }
 
 
